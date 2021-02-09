@@ -1,6 +1,6 @@
 from exif import Image
 
-fileLoc = input('Input file: ')
+fileLoc = input('Input file location: ')
 # with open('/mnt/c/temp/WP_20170323_15_23_12_Pro.jpg', 'rb') as image_file:
 with open(fileLoc, 'rb') as image_file:
      my_image = Image(image_file)
